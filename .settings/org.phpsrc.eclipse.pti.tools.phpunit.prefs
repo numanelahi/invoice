@@ -1,0 +1,6 @@
+bootstrap=
+eclipse.preferences.version=1
+source_file_pattern_folder=
+test_file_pattern_file=%fTest.%e
+test_file_pattern_folder=\\%p\\tests\\%d
+test_file_super_class=PHPUnit_Framework_TestCase

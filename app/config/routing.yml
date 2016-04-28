@@ -1,0 +1,11 @@
+invoice_product:
+    resource: "@InvoiceBundle/Controller/ProductController.php"
+    type:     annotation
+
+invoice_invoice:
+    resource: "@InvoiceBundle/Controller/InvoiceController.php"
+    type:     annotation
+
+invoice_routes:
+    resource: "@InvoiceBundle/Controller"
+    type: annotation

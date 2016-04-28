@@ -1,0 +1,7 @@
+services:
+    pdf_manager:
+        class: InvoiceBundle\Services\ViewRenderingService
+        arguments: [@knp_snappy.pdf,@templating]
+    mail_manager:
+        class: InvoiceBundle\Services\MailerService
+        arguments: [@mailer,@templating]
